@@ -1,6 +1,8 @@
 ## BaseSQL
 Basic SQL commands for SQL Server, MySQL, Oracle, SQLite, PostgreSQL, etc..
 
+[Usage](#usage) | [Examples](#examples) | [Options](#options) | [Author](#author) | [License](#license)
+
 ## Usage
 ```c#
 using BaseSQLServer;
@@ -8,7 +10,7 @@ using BaseSQLServer;
 Database Sql = new Database();
 ```
 
-## Example
+## Examples
 ```c#
 using BaseSQLServer;
 
