@@ -71,8 +71,8 @@ namespace BaseSQLServer
                     string Totals2 = "";
                     for (int i = 0; i <= Cells_.Length - 1; i++)
                     {
-                        Cells_[i] = Cells_[i].Replace("'", " ");
-                        Values_[i] = Values_[i].Replace("'", " ");
+                        Cells_[i] = Cells_[i].Replace("'", "''");
+                        Values_[i] = Values_[i].Replace("'", "''");
 
                         if (i == Cells_.Length - 1)
                         {
@@ -119,8 +119,8 @@ namespace BaseSQLServer
                     string Totals = "";
                     for (int i = 0; i <= Cells_.Length - 1; i++)
                     {
-                        Cells_[i] = Cells_[i].Replace("'", " ");
-                        Values_[i] = Values_[i].Replace("'", " ");
+                        Cells_[i] = Cells_[i].Replace("'", "''");
+                        Values_[i] = Values_[i].Replace("'", "''");
 
                         if (i == Cells_.Length - 1)
                         {
@@ -163,8 +163,8 @@ namespace BaseSQLServer
                     string Totals = "";
                     for (int i = 0; i <= Cells_.Length - 1; i++)
                     {
-                        Cells_[i] = Cells_[i].Replace("'", " ");
-                        Values_[i] = Values_[i].Replace("'", " ");
+                        Cells_[i] = Cells_[i].Replace("'", "''");
+                        Values_[i] = Values_[i].Replace("'", "''");
 
                         if (i == Cells_.Length - 1)
                         {
